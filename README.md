@@ -17,47 +17,50 @@ I bring 10+ years of experience across enterprise risk, data governance, automat
 
 ### Enterprise RAG Application
 
-Status: In Progress  
-Current phase: document ingestion, metadata validation, and chunking  
-Next phase: embeddings, vector retrieval, and answer generation
+Status: Active build  
+Current phase: local embeddings, vector retrieval, prompt assembly, cited answer generation, refusal behavior, and Streamlit demo  
+Next phase: API layer, Docker packaging, CI workflow, evaluation reporting, and AWS architecture option
 
-A document-based RAG application designed to help users upload files, process content, retrieve relevant context, and generate grounded AI responses.
+A document-based RAG application designed to process a document corpus, retrieve relevant context, and generate grounded AI responses with source citations.
 
 Focus areas:
 
 - Document ingestion and chunking
 - Metadata validation
-- Embeddings and vector search concepts
-- Prompt design and response grounding
+- Local embeddings and vector retrieval
+- Prompt assembly and cited answer generation
+- Refusal behavior for unsupported questions
 - AWS architecture patterns
 - Governance-aware system design
 
 This project is being built incrementally to show not only the final application, but also the engineering decisions behind the system.
 
-### Health & Fitness Operations AI Workflow
+### Small Business Operations Insights
 
-Status: Planning / In Progress  
-Current phase: requirements discovery and workflow design  
-Next phase: prototype AI-assisted document and operations workflow
+Status: Planning / MVP build  
+Current phase: sample data, public project framing, and MVP workflow design  
+Next phase: data loading, metrics, retention flags, and weekly owner summary
 
-An AI workflow project for a small business use case, focused on reducing manual administrative work and improving access to operational information.
+A lightweight analytics and AI reporting project for a small service-based business, focused on turning spreadsheet-style data into retention insights, activity trends, and a plain-English weekly owner summary.
 
 Focus areas:
 
 - Business process analysis
 - Requirements discovery
-- AI-assisted document and workflow organization
-- Lightweight automation
+- Sample data design
+- Retention and activity metrics
 - Practical GenAI use cases for small business operations
 
 This project demonstrates how AI can be applied to real operational problems without overcomplicating the solution.
 
 ## Tools & Technologies
 
-Python · AWS · S3 · Lambda · Bedrock · IAM · CloudWatch · FastAPI · SQL · Snowflake · Databricks · Tableau · UiPath · GitHub
+Python · Streamlit · Chroma · sentence-transformers · Pydantic · pytest · AWS architecture · S3 · Lambda · Bedrock · IAM · CloudWatch · FastAPI · SQL · Snowflake · Databricks · Tableau · GitHub
 
 ## Now
 
-Building AI engineering portfolio projects, strengthening AWS architecture skills, and preparing for AWS Certified AI Practitioner and AWS Solutions Architect Associate.
+Building AI engineering portfolio projects focused on enterprise RAG, document processing, retrieval, evaluation, and AWS architecture patterns.
+
+AWS Certified AI Practitioner scheduled for August 2026. Continuing AWS architecture study through project-based system design.
 
 [LinkedIn](https://www.linkedin.com/in/lanaygrant)
