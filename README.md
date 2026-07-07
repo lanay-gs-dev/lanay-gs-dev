@@ -18,8 +18,8 @@ I bring 10+ years of experience across enterprise risk, data governance, automat
 ### Enterprise RAG Application
 
 Status: Active build  
-Current phase: local embeddings, vector retrieval, prompt assembly, cited answer generation, refusal behavior, and Streamlit demo  
-Next phase: API layer, Docker packaging, CI workflow, evaluation reporting, and AWS architecture option
+Implemented now: local embeddings, vector retrieval, prompt assembly, cited answer generation, refusal behavior, and Streamlit demo  
+Planned next: API layer, Docker packaging, CI workflow, evaluation reporting, and AWS architecture option
 
 A document-based RAG application designed to process a document corpus, retrieve relevant context, and generate grounded AI responses with source citations.
 
@@ -38,8 +38,8 @@ This project is being built incrementally to show not only the final application
 ### Small Business Operations Insights
 
 Status: Planning / MVP build  
-Current phase: sample data, public project framing, and MVP workflow design  
-Next phase: data loading, metrics, retention flags, and weekly owner summary
+Implemented now: sample data, public project framing, and MVP workflow design  
+Planned next: data loading, metrics, retention flags, and weekly owner summary
 
 A lightweight analytics and AI reporting project for a small service-based business, focused on turning spreadsheet-style data into retention insights, activity trends, and a plain-English weekly owner summary.
 
