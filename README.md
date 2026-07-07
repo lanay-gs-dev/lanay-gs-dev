@@ -1,6 +1,6 @@
 # La-Nay Grant
 
-AI Solutions Engineer focused on enterprise GenAI, RAG applications, AWS architecture, and governance-aware AI systems.
+AI Solutions Engineer building enterprise GenAI and RAG applications with AWS architecture, governance, and risk-aware delivery.
 
 I bring 10+ years of experience across enterprise risk, data governance, automation, and analytics. My work focuses on turning messy business knowledge into AI systems that are useful, explainable, and practical to operate.
 
