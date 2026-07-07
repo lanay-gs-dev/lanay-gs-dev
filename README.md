@@ -61,6 +61,6 @@ Python · Streamlit · Chroma · sentence-transformers · Pydantic · pytest · 
 
 Building AI engineering portfolio projects focused on enterprise RAG, document processing, retrieval, evaluation, and AWS architecture patterns.
 
-AWS Certified AI Practitioner scheduled for August 2026. Continuing AWS architecture study through project-based system design.
+AWS Certified AI Practitioner scheduled for August 2026. Continuing AWS Solutions Architecture study through project-based system design.
 
 [LinkedIn](https://www.linkedin.com/in/lanaygrant)
