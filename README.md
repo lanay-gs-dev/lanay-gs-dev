@@ -17,23 +17,32 @@ I bring 10+ years of experience across enterprise risk, data governance, automat
 
 ### Enterprise RAG Application
 
-Status: Active build  
-Implemented now: local embeddings, vector retrieval, prompt assembly, cited answer generation, refusal behavior, and Streamlit demo  
-Planned next: API layer, Docker packaging, CI workflow, evaluation reporting, and AWS architecture option
+Status: Local prototype complete; AWS-native version planned  
+Repository: [enterprise-rag-application](https://github.com/lanay-gs-dev/enterprise-rag-application)  
+Stack: Python, FastAPI, Streamlit, Chroma, sentence-transformers, Docker, unittest
 
-A document-based RAG application designed to process a document corpus, retrieve relevant context, and generate grounded AI responses with source citations.
+A document-based RAG application for answering questions from internal documents with traceable evidence, metadata validation, retrieval, and refusal behavior.
 
-Focus areas:
+Implemented now:
 
-- Document ingestion and chunking
-- Metadata validation
-- Local embeddings and vector retrieval
-- Prompt assembly and cited answer generation
-- Refusal behavior for unsupported questions
-- AWS architecture patterns
-- Governance-aware system design
+- Markdown document ingestion with required metadata validation
+- Deterministic paragraph-aware chunking with stable chunk IDs
+- Local embeddings and Chroma vector search
+- Retrieval layer that returns ranked evidence chunks
+- Deterministic answer/refusal response contract
+- Streamlit demo interface
+- FastAPI `/ask` endpoint returning answer, citations, refusal status, and retrieved evidence
+- Docker deployment files for the FastAPI service
+- Tests across ingestion, chunking, embeddings, vector storage, retrieval, refusal behavior, and API responses
 
-This project is being built incrementally to show not only the final application, but also the engineering decisions behind the system.
+AWS production mapping:
+
+- S3 for document storage
+- Lambda, ECS, or Glue for ingestion jobs
+- Bedrock embeddings or SageMaker for managed embedding generation
+- OpenSearch Serverless or Bedrock Knowledge Bases for managed vector search
+- App Runner or ECS for the FastAPI service
+- CloudWatch, IAM, and Secrets Manager for operations and security
 
 ### Small Business Operations Insights
 
@@ -55,7 +64,7 @@ This project demonstrates how AI can be applied to real operational problems wit
 
 ## Tools & Technologies
 
-Python · Streamlit · Chroma · sentence-transformers · Pydantic · pytest · AWS architecture · S3 · Lambda · Bedrock · IAM · CloudWatch · FastAPI · SQL · Snowflake · Databricks · Tableau · GitHub
+Python · FastAPI · Streamlit · Chroma · sentence-transformers · Docker · unittest · AWS architecture · S3 · Lambda · Bedrock · OpenSearch · App Runner · IAM · CloudWatch · SQL · Snowflake · Databricks · Tableau · GitHub
 
 ## Now
 
