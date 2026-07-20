@@ -71,8 +71,8 @@ Python · FastAPI · Streamlit · Chroma · sentence-transformers · Docker · G
 
 ## Now
 
-Building AI engineering portfolio projects focused on enterprise RAG, document processing, retrieval, evaluation, and AWS architecture patterns.
+Building AI engineering portfolio projects focused on enterprise RAG, document processing, retrieval, evaluation, AWS deployment, and cloud architecture patterns.
 
-AWS Certified AI Practitioner scheduled for August 2026. Continuing AWS Solutions Architecture study through project-based system design.
+AWS Certified AI Practitioner scheduled for August 2026.
 
 [LinkedIn](https://www.linkedin.com/in/lanaygrant)
